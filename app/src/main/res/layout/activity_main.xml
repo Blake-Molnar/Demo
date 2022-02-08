@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="384dp"
+        android:layout_height="333dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="ToggleButton"
+            tools:layout_editor_absoluteY="24dp"
+            android:textOff="Light"
+            android:textOn="Dark"
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis hendrerit lacus, id sagittis mi. Vivamus dictum, quam vitae semper porttitor, diam est facilisis mi, vitae lacinia tellus ligula et sem. Nulla a pharetra tellus. Donec ipsum lectus, gravida quis tincidunt vitae, molestie sed urna. Nulla interdum, ante nec ultrices interdum, ipsum elit consectetur dui, nec tempor tortor lacus at est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis blandit aliquam sapien, ut consequat quam ultricies vel. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam blandit, magna id hendrerit placerat, enim diam bibendum neque, eget laoreet elit sem quis turpis. Sed pretium vel urna in ultricies. Maecenas vulputate mattis felis. Praesent venenatis enim maximus diam finibus tincidunt. Quisque sed congue arcu." />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
